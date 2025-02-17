@@ -7,7 +7,6 @@ import { useState } from 'react';
 function ProductCard({ product, onSubscribe }: { product: Product; onSubscribe: () => void }) {
   const { colors } = useTheme();
   const [purchaseType, setPurchaseType] = useState<'oneTime' | 'subscription'>('oneTime');
-  console.log('Product Image URI:', product.image.uri);
   return (
     <View style={[styles.productCard, { backgroundColor: colors.card }]}>
       <Image source={{ uri: product.image.uri }} style={styles.productImage} />
