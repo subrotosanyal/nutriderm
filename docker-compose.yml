@@ -19,7 +19,7 @@ services:
     command: npm run dev
 
   # Production service
-  prod:
+  nutriderm:
     build:
       context: .
       dockerfile: Dockerfile

@@ -20,7 +20,7 @@ export default function HomeScreen() {
       </View>
 
       <Text style={[styles.welcome, { color: colors.text }]}>
-        Welcome to NutriPatch
+        Welcome to Nutriderm
       </Text>
 
       <View style={styles.featuredContainer}>
