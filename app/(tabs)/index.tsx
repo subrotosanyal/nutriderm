@@ -11,7 +11,7 @@ export default function HomeScreen() {
   return (
     <ScrollView style={[styles.container, { backgroundColor: colors.background }]}>
       <View style={styles.header}>
-        <Logo size={40} />
+        <Logo size={70} />
         <View style={styles.headerRight}>
           <Pressable style={styles.iconButton}>
             <Ionicons name="notifications-outline" size={24} color={colors.text} />

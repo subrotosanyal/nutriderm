@@ -9,10 +9,10 @@ export function Logo({ size = 40 }: { size?: number }) {
     <View style={[styles.container, { width: size, height: size }]}>
       {/*<Ionicons name="leaf" size={size * 0.6} color={colors.primary} />*/}
       <Image
-        source={require('@/assets/images/Nutriderm_Logo.jpeg') } style={{
+        source={require('@/assets/images/Nutriderm_Logo.png') } style={{
         width: size * 1,
         height: size * 1,
-        resizeMode: 'stretch',
+        resizeMode: 'cover',
       }}
       />
     </View>
@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 12,
-    backgroundColor: '#E9F5F0',
+    
   },
 });
